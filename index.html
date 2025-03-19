@@ -81,6 +81,41 @@
     </section>
 
     <style>
+<style>
+    .ticker-container {
+        width: 100%;
+        overflow: hidden;
+        background: #f8f9fa;
+        padding: 10px 0;
+        white-space: nowrap;
+        position: relative;
+        border: 2px solid red; /* Temporary debug border */
+    }
+
+    .ticker-content {
+        display: inline-block;
+        white-space: nowrap;
+        animation: ticker-scroll 25s linear infinite;
+    }
+
+    .ticker-content span {
+        display: inline-block;
+        padding: 0 30px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    @keyframes ticker-scroll {
+        from {
+            transform: translateX(100%);
+        }
+        to {
+            transform: translateX(-100%);
+        }
+    }
+</style>
+
     .ticker-container {
         width: 100%;
         overflow: hidden;
