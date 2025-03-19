@@ -80,6 +80,114 @@
         <p>Phone: (123) 456-7890</p>
     </section>
 
+    <style>
+    .ticker-container {
+        width: 100%;
+        overflow: hidden;
+        background: #f8f9fa;
+        padding: 10px 0;
+        white-space: nowrap;
+        position: relative;
+    }
+
+    .ticker-content {
+        display: inline-block;
+        white-space: nowrap;
+        animation: ticker-scroll 25s linear infinite;
+    }
+
+    .ticker-content span {
+        display: inline-block;
+        padding: 0 30px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    @keyframes ticker-scroll {
+        from {
+            transform: translateX(100%);
+        }
+        to {
+            transform: translateX(-100%);
+        }
+    }
+</style>
+
+<div class="ticker-container">
+    <div class="ticker-content">
+        <span>Microsoft</span>
+        <span>MS Azure</span>
+        <span>.Net MVC</span>
+        <span>.Net Core</span>
+        <span>Sharepoint</span>
+        <span>WCF</span>
+        <span>WPF</span>
+
+        <span>OpenSource</span>
+        <span>PHP</span>
+        <span>Java</span>
+        <span>C++</span>
+        <span>Python</span>
+
+        <span>Java</span>
+        <span>Spring</span>
+        <span>Struts</span>
+        <span>Hibernate</span>
+
+        <span>Frameworks</span>
+        <span>Laravel</span>
+        <span>Zend</span>
+        <span>Symfony</span>
+
+        <span>CMS</span>
+        <span>WordPress</span>
+        <span>Liferay</span>
+        <span>Drupal</span>
+
+        <span>Ecommerce</span>
+        <span>Magento</span>
+        <span>Opencart</span>
+
+        <span>Mobile</span>
+        <span>iPhone</span>
+        <span>Android</span>
+        <span>Ionic</span>
+        <span>Flutter</span>
+
+        <span>CRM</span>
+        <span>Salesforce</span>
+        <span>MS Dynamic</span>
+        <span>Sage</span>
+        <span>Netsuite</span>
+
+        <span>Frontend</span>
+        <span>React JS</span>
+        <span>HTML5</span>
+        <span>Vue.js</span>
+
+        <span>UI/UX</span>
+        <span>Photoshop (Ps)</span>
+        <span>Adobe XD (Xd)</span>
+        <span>Bootstrap 4</span>
+        <span>Illustrator (Ai)</span>
+        <span>Sass</span>
+
+        <span>Data Engineering</span>
+        <span>Hive</span>
+        <span>MySQL</span>
+        <span>MongoDB</span>
+        <span>Apache Spark</span>
+
+        <span>Cloud</span>
+        <span>AWS</span>
+        <span>Google Cloud</span>
+        <span>OpenStack</span>
+        <span>MS Azure</span>
+        <span>VMware</span>
+    </div>
+</div>
+
     <!-- Trusted Brands Section -->
     <section class="trusted-brands">
         <h2>Trusted by Leading Brands</h2>
